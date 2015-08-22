@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Wang Qiu <winsonwq@gmail.com> (http://slender-man.github.io/)",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.4.1"
+  },
+  "dependencies": {
+    "event-stream": "^3.3.1",
+    "express": "^4.13.3",
+    "ramda": "^0.17.1"
+  }
+}
