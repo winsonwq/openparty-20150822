@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "watchify --debug lib/app.react.js -o dist/bundle.js",
+    "watch": "mkdir -p dist && watchify --debug lib/app.react.js -o dist/bundle.js",
     "server": "hs -p 9999"
   },
   "author": "Wang Qiu <winsonwq@gmail.com> (http://slender-man.github.io/)",
